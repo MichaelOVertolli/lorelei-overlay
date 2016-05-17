@@ -26,6 +26,7 @@ RDEPEND="
 	qt5? (
 		dev-qt/qtdeclarative:5
 		dev-qt/qtwebkit:5
+                dev-qt/qtwebengine:5
 	)
 	>=dev-libs/boost-1.53.0[threads(+)]
 	>=dev-libs/crypto++-5.6.2
