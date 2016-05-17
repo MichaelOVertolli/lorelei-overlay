@@ -2,12 +2,12 @@
 <layman>
 	<overlay
 		type = "git"
-		src  = "git://github.com/bignaux/lorelei-overlay.git"
+		src  = "git://github.com/MichaelOVertolli/lorelei-overlay.git"
 		contact = "ronan@aimao.org"
 		status  = "unofficial"
 		name = "lorelei">
 		<link>
-			http://github.com/bignaux/lorelei-overlay
+			http://github.com/MichaelOVertolli/lorelei-overlay
 		</link>
 		<description>
 			A public gentoo overlay to pre-release ebuild for our projects
