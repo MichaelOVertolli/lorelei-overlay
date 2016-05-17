@@ -32,7 +32,7 @@ RDEPEND="
 	net-libs/miniupnpc
 	dev-libs/gmp
 	dev-cpp/libjson-rpc-cpp
-        sys-devel/llvm-3.7.1-r2"
+        >=sys-devel/llvm-3.7.1-r1"
 
 DEPEND="${RDEPEND}"
 
