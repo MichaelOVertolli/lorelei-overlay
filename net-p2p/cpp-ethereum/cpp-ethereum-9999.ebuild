@@ -31,7 +31,8 @@ RDEPEND="
 	>=dev-libs/crypto++-5.6.2
 	net-libs/miniupnpc
 	dev-libs/gmp
-	dev-cpp/libjson-rpc-cpp"
+	dev-cpp/libjson-rpc-cpp
+        sys-devel/llvm-3.7.1-r2"
 
 DEPEND="${RDEPEND}"
 
