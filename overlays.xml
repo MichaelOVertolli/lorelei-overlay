@@ -5,7 +5,7 @@
 		src  = "git://github.com/MichaelOVertolli/lorelei-overlay.git"
 		contact = "ronan@aimao.org"
 		status  = "unofficial"
-		name = "lorelei">
+		name = "lorelei2">
 		<link>
 			http://github.com/MichaelOVertolli/lorelei-overlay
 		</link>
