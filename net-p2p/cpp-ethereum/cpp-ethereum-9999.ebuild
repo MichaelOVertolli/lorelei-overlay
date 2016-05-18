@@ -24,16 +24,31 @@ IUSE="$IUSE qt5"
 
 RDEPEND="
 	qt5? (
-		dev-qt/qtdeclarative:5
-		dev-qt/qtwebkit:5
-                dev-qt/qtwebengine:5
+		>=dev-qt/qtbase-5.6.0
+		>=dev-qt/qtquick1-5.6.0
+		>=dev-qt/qtquickcontrols-5.6.0
+		>=dev-qt/qtgraphicaleffects-5.6.0
+		>=dev-qt/qtdeclarative-5.6.0
+		>=dev-qt/qtwebkit-5.6.0
+                >=dev-qt/qtwebengine-5.6.0
 	)
-	>=dev-libs/boost-1.53.0[threads(+)]
+	>=dev-libs/boost-1.56.0[threads(+)]
 	>=dev-libs/crypto++-5.6.2
 	net-libs/miniupnpc
+        net-libs/libmicrohttpd
+        net-misc/curl
 	dev-libs/gmp
+        dev-libs/jsoncpp
+        dev-libs/leveldb
+        dev-libs/libedit
+        dev-libs/ocl-icd
 	dev-cpp/libjson-rpc-cpp
-        >=sys-devel/llvm-3.7.1-r1"
+	dev-util/scons
+	dev-util/google-perftools
+        >=sys-devel/llvm-3.7.1-r1
+        sys-libs/ncurses
+	sys-libs/readline
+	app-arch/snappy"
 
 DEPEND="${RDEPEND}"
 
