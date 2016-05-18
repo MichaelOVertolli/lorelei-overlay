@@ -47,15 +47,25 @@ RDEPEND="
 	net-libs/miniupnpc
         net-libs/libmicrohttpd
         net-misc/curl
+	dev-libs/argtable
 	dev-libs/gmp
         dev-libs/jsoncpp
         dev-libs/leveldb
         dev-libs/libedit
         dev-libs/ocl-icd
+	>=dev-lang/v8-3.15
+	dev-lang/yasm
 	dev-cpp/libjson-rpc-cpp
 	dev-util/scons
 	dev-util/google-perftools
+	dev-util/cmake
+	dev-vcs/git
         >=sys-devel/llvm-3.7.1-r1
+	sys-devel/automake
+	sys-devel/autoconf
+	sys-devel/gcc
+	sys-devel/libtool
+	sys-devel/clang
         sys-libs/ncurses
 	sys-libs/readline
 	app-arch/snappy"
