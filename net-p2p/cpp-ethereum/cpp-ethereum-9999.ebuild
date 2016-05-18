@@ -24,7 +24,18 @@ IUSE="$IUSE qt5"
 
 RDEPEND="
 	qt5? (
-		>=dev-qt/qtbase-5.6.0
+		>=dev-qt/qtconcurrent-5.6.0
+		>=dev-qt/qtcore-5.6.0
+		>=dev-qt/qtdbus-5.6.0
+		>=dev-qt/qtgui-5.6.0
+		>=dev-qt/qtnetwork-5.6.0
+		>=dev-qt/qtopengl-5.6.0
+		>=dev-qt/qtmeta-5.6.0
+		>=dev-qt/qtprintsupport-5.6.0
+		>=dev-qt/qtsql-5.6.0
+		>=dev-qt/qttest-5.6.0
+		>=dev-qt/qtwidgets-5.6.0
+		>=dev-qt/qtxml-5.6.0
 		>=dev-qt/qtquick1-5.6.0
 		>=dev-qt/qtquickcontrols-5.6.0
 		>=dev-qt/qtgraphicaleffects-5.6.0
