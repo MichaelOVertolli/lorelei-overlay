@@ -30,7 +30,6 @@ RDEPEND="
 		>=dev-qt/qtgui-5.6.0
 		>=dev-qt/qtnetwork-5.6.0
 		>=dev-qt/qtopengl-5.6.0
-		>=dev-qt/qtmeta-5.6.0
 		>=dev-qt/qtprintsupport-5.6.0
 		>=dev-qt/qtsql-5.6.0
 		>=dev-qt/qttest-5.6.0
