@@ -60,12 +60,12 @@ RDEPEND="
 	dev-util/google-perftools
 	dev-util/cmake
 	dev-vcs/git
-        >=sys-devel/llvm-3.7.1-r1
+        =sys-devel/llvm-3.7.1-r1
 	sys-devel/automake
 	sys-devel/autoconf
 	sys-devel/gcc
 	sys-devel/libtool
-	sys-devel/clang
+	=sys-devel/clang-3.7.1-r100
         sys-libs/ncurses
 	sys-libs/readline
 	app-arch/snappy"
