@@ -60,7 +60,7 @@ RDEPEND="
 	dev-util/google-perftools
 	dev-util/cmake
 	dev-vcs/git
-        =sys-devel/llvm-3.7.1-r1
+        =sys-devel/llvm-3.7.1-r2
 	sys-devel/automake
 	sys-devel/autoconf
 	sys-devel/gcc
