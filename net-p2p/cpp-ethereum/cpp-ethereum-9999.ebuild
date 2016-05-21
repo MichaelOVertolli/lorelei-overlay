@@ -74,8 +74,7 @@ DEPEND="${RDEPEND}"
 
 src_configure() {
         local mycmakeargs=(
-				-DCMAKE_BUILD_TYPE=Release
-				-DHEADLESS=1
+				
         )
 
 		#use qt5 || mycmakeargs="${mycmakeargs} -DHEADLESS=1"
