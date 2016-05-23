@@ -40,7 +40,7 @@ RDEPEND=" qt5? ( =dev-qt/qtconcurrent-5.6.0 =dev-qt/qtcore-5.6.0
 	dev-vcs/git =sys-devel/llvm-9999 sys-devel/automake
 	sys-devel/autoconf sys-devel/gcc sys-devel/libtool
 	=sys-devel/clang-9999 sys-libs/ncurses sys-libs/readline
-	app-arch/snappy media-libs/mesa-9999"
+	app-arch/snappy =media-libs/mesa-9999"
 
 DEPEND="${RDEPEND}"
 
